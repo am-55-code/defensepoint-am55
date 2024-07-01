@@ -20,4 +20,5 @@ a. Use private endpoints to communicate between workloads dependencies
 
 ## 4 - Cloud Provider
 a. Use accounts with MFA enabled and RBAC with just enough roles to work with the application (Least Privilege).
+
 b. Enable geofencing and CAP policies, if possible use Privileged Identity Management (PIM).
