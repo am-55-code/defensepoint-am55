@@ -15,6 +15,9 @@ b. Use geo-filtering to restrict access to undesired countries.
 
 c. Enabled DDoS protection built into the resource.
 
-## 3 - Cloud Provider
-a. Use accounts with MFA enabled and RBAC with just enough roles to work with the application.
+## 3 - Workload
+a. Use private endpoints to communicate between workloads dependencies
+
+## 4 - Cloud Provider
+a. Use accounts with MFA enabled and RBAC with just enough roles to work with the application (Least Privilege).
 b. Enable geofencing and CAP policies, if possible use Privileged Identity Management (PIM).
